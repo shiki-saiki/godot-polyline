@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3 uid="uid://bmbajfat8lr6v"]
+
+[ext_resource type="Script" path="res://segment_editor.gd" id="1_eklaj"]
+
+[node name="SegmentEditor" type="Node2D"]
+script = ExtResource("1_eklaj")
