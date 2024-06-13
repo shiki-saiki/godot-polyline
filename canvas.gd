@@ -29,17 +29,20 @@ func _draw():
 
 
 func _on_resized():
+	print("resized!!")
 	queue_redraw()
 
 
 func _input(event: InputEvent):
 	if event is InputEventKey:
-		if event.keycode == KEY_G and event.pressed:
+		if event.keycode == KEY_D and event.pressed:
+			if 5000 < get_segment_num():
+				return
 			var t0: int = Time.get_ticks_msec()
 			grow()
 			var t1: int = Time.get_ticks_msec()
 			print("grow: %s ms" % (t1 - t0))
-			print("segment count: ", list_polyline.reduce(func(accum: int, pl: Polyline): return accum + pl.get_point_num(), 0))
+			print("segment count: ", get_segment_num())
 	elif event is InputEventMouseButton:
 		match event.button_index:
 			MOUSE_BUTTON_LEFT:
@@ -54,6 +57,13 @@ func _input(event: InputEvent):
 	elif event is InputEventMouseMotion:
 		if Input.is_mouse_button_pressed(MOUSE_BUTTON_LEFT):
 			position += event.relative
+
+
+func get_segment_num() -> int:
+	return list_polyline.reduce(
+		func(accum: int, pl: Polyline): return accum + pl.get_segment_num(),
+		0,
+	)
 
 
 func insert_segment(idx: int, segment_id: int, start: Vector2, end: Vector2):

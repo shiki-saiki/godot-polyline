@@ -35,4 +35,6 @@ func _on_segment_info_label_selected(label: Label):
 
 
 func _on_segment_info_division_map_selected(division_map: DivisionMap):
-	pass
+	canvas.clear()
+	canvas.insert_segment(0, segment_db.get_id(division_map.segment.type), Vector2(canvas.size.x * 0.1, canvas.size.y * 0.5),  Vector2(canvas.size.x * 0.9, canvas.size.y * 0.5))
+	canvas.queue_redraw()

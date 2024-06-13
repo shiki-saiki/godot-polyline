@@ -27,6 +27,10 @@ func get_point_num() -> int:
 	return data.size()
 
 
+func get_segment_num() -> int:
+	return data.size() - 1
+
+
 func append_point(segment_id: int, point: Vector2) -> void:
 	var pseg := PSegment.new()
 	pseg.segment_id = segment_id

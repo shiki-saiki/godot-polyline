@@ -17,3 +17,6 @@ func _gui_input(event: InputEvent):
 			MOUSE_BUTTON_LEFT:
 				if event.pressed:
 					selected.emit(self)
+
+func _draw() -> void:
+	draw_line(size * Vector2(0.25, 0.75), size * Vector2(0.75, 0.75), segment.color, 2.0)
