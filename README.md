@@ -8,8 +8,12 @@
 - [コッホ曲線](https://ja.wikipedia.org/wiki/%E3%82%B3%E3%83%83%E3%83%9B%E6%9B%B2%E7%B7%9A)
 - [ドラゴン曲線](https://ja.wikipedia.org/wiki/%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E6%9B%B2%E7%B7%9A)
 
+## バイナリーファイルのダウンロード
 
-# 操作方法
+[v1.0.0](https://github.com/shiki-saiki/godot-polyline/releases/tag/v1.0.0)
+
+
+## 操作方法
 
 - Q: パネルを表示/非表示
 - D: 線分分割
