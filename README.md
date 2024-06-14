@@ -1,5 +1,14 @@
 # 線分分割
 
+線分を再帰的に分割することでフラクタル図形を作るアプリです。
+
+アイデアの元となったもの:
+
+- [L-system](https://ja.wikipedia.org/wiki/L-system)
+- [コッホ曲線](https://ja.wikipedia.org/wiki/%E3%82%B3%E3%83%83%E3%83%9B%E6%9B%B2%E7%B7%9A)
+- [ドラゴン曲線](https://ja.wikipedia.org/wiki/%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E6%9B%B2%E7%B7%9A)
+
+
 # 操作方法
 
 - Q: パネルを表示/非表示
