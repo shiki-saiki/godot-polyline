@@ -2,6 +2,8 @@
 
 線分を再帰的に分割することでフラクタル図形を作るアプリです。
 
+[Godot](https://godotengine.org/)で作りました。
+
 アイデアの元となったもの:
 
 - [L-system](https://ja.wikipedia.org/wiki/L-system)
