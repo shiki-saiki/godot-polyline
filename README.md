@@ -10,6 +10,8 @@
 - [コッホ曲線](https://ja.wikipedia.org/wiki/%E3%82%B3%E3%83%83%E3%83%9B%E6%9B%B2%E7%B7%9A)
 - [ドラゴン曲線](https://ja.wikipedia.org/wiki/%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E6%9B%B2%E7%B7%9A)
 
+製作期間: 約2週間
+
 ## バイナリーファイルのダウンロード
 
 [v1.0.0](https://github.com/shiki-saiki/godot-polyline/releases/tag/v1.0.0)
